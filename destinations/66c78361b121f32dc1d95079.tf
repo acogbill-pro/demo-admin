@@ -13,6 +13,6 @@ resource "segment_destination" "id-66c78361b121f32dc1d95079" {
     supported_regions = ["us-west-2", "eu-west-1"]
   }
   name      = "Salesforce (Actions)"
-  settings  = "{\"auth_password\":\"\",\"isSandbox\":false,\"security_token\":\"\",\"username\":\"\"}"
+  settings  = "{\"account\":\"\",\"auth_password\":\"\",\"isSandbox\":false,\"security_token\":\"\",\"username\":\"\"}"
   source_id = "2TapZFYdqrQMgoXiU2JZCU"
 }
