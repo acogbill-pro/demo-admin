@@ -5,7 +5,12 @@ import {
 
 resource "segment_source" "id-5ERQpwNiq1REwofhiy1u6d" {
   enabled = true
-  labels  = null
+  labels = [
+    {
+      key   = "environment"
+      value = "prod"
+    },
+  ]
   metadata = {
     id = "IqDTy1TpoU"
   }
