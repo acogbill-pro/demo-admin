@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_destination" "id-66c78361b121f32dc1d95079" {
-  enabled = false
+  enabled = true
   metadata = {
     contacts          = null
     id                = "61957755c4d820be968457de"
@@ -12,7 +12,7 @@ resource "segment_destination" "id-66c78361b121f32dc1d95079" {
     region_endpoints  = ["US"]
     supported_regions = ["us-west-2", "eu-west-1"]
   }
-  name      = "Salesforce (Actions)"
+  name      = "Salesforce (Engage)"
   settings  = "{\"account\":\"\",\"auth_password\":\"\",\"isSandbox\":false,\"security_token\":\"\",\"username\":\"\"}"
   source_id = "2TapZFYdqrQMgoXiU2JZCU"
 }
